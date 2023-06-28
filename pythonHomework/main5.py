@@ -1,6 +1,6 @@
 number = int(input("Введите целое число: "))
 if number == 0:
-    result = "нулевое число"
+    result = "ноль"
 elif number > 0:
     result = "положительное"
 else:
@@ -9,7 +9,7 @@ else:
 if number % 2 == 0:
     result += " четное число"
 else:
-    result += " нечетное число, число не является четным"
+    result += " нечетное число"
 
 print(result)
 
